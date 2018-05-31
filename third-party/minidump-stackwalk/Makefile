@@ -1,8 +1,7 @@
-BREAKPAD_SRCDIR := ../google-breakpad/src
-BREAKPAD_OBJDIR := ../obj-breakpad
+BREAKPAD_SRCDIR := ../src/src
 BREAKPAD_LIBS := \
-  $(BREAKPAD_OBJDIR)/src/libbreakpad.a \
-  $(BREAKPAD_OBJDIR)/src/third_party/libdisasm/libdisasm.a \
+  /usr/local/lib/libbreakpad.a \
+  ../src/src/third_party/libdisasm/libdisasm.a \
   $(NULL)
 
 JSON_DIR := jsoncpp-src-0.5.0
